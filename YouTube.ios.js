@@ -38,6 +38,7 @@ const parsePlayerParams = props => ({
     rel: props.rel === false ? 0 : undefined,
     origin: props.origin,
     cc_load_policy: props.showCaptions === true ? 1 : undefined,
+    cc_lang_pref: props.captionsLangCode,
   },
 });
 
@@ -56,6 +57,7 @@ export default class YouTube extends React.Component {
     rel: PropTypes.bool,
     origin: PropTypes.string,
     showCaptions: PropTypes.bool,
+    captionsLangCode: PropTypes.string,
     onError: PropTypes.func,
     onReady: PropTypes.func,
     onChangeState: PropTypes.func,
