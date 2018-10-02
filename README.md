@@ -44,6 +44,8 @@ Can be changed while mounted. Overridden at start by `videoId` and `videoIds`.
 * `showFullscreenButton` (boolean): Show or hide Fullscreen button. Default: `true`.
 * `showinfo` (boolean, *iOS*): Setting the parameter's value to false causes the player to not display information like the video title and uploader before the video starts playing. Default: `true`.
 * `modestbranding` (boolean, *iOS*): This parameter lets you use a YouTube player that does not show a YouTube logo. Default: `false`.
+* `showCaptions` (boolean, *iOS*): Show closed captions if available. Default: `undefined`.
+* `captionsLangCode` (string, *iOS*): Default language for closed captions. Should be an [ISO 639-1 two-letter language code](http://www.loc.gov/standards/iso639-2/php/code_list.php). Default: `undefined`.
 * `origin` (string, *iOS*): This parameter provides an extra security measure for the iFrame API.
 * `rel` (boolean, *iOS*): Show related videos at the end of the video. Default: `true`.
 * `resumePlayAndroid` (boolean, *Android*): Makes the video resume playback after the app resumes from background. Default: `true`.
